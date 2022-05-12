@@ -34,17 +34,6 @@ public class EnemyShooterAI : MonoBehaviour
     public entranceMove eMove = new entranceMove();
     Transform player;
 
-    public string runForwardAimAnim;
-    public string runBackwardAimAnim;
-    public string runBackLeftAimAnim;
-    public string runFrontLeftAimAnim;
-    public string runRightAimAnim;
-    public string runFrontRightAimAnim;
-    public string runBackRightAimAnim;
-    public string runLeftAimAnim;
-    public string coverAnimation;
-    public string standardAnimation;
-
     [SerializeField]
     private Vector3 coverPositionToTransitionTo;
     private bool transitionToCoverPosition;
